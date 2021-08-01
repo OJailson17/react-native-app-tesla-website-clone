@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View, Pressable } from "react-native";
+import { styles } from "./Button.style";
 
 export const StyledButton = ({ primary, text, handleClick }) => {
   // Dinamic styles
@@ -17,20 +18,3 @@ export const StyledButton = ({ primary, text, handleClick }) => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    padding: 10,
-  },
-  button: {
-    height: 40,
-    borderRadius: 20,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  text: {
-    fontSize: 12,
-    fontWeight: "500",
-    textTransform: "uppercase",
-  },
-});

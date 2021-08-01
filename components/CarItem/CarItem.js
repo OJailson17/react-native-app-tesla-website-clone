@@ -7,6 +7,7 @@ export const CarItem = ({ carName, tagline, taglineCTA, bcgImage }) => {
   return (
     <View style={styles.carContainer}>
       <ImageBackground source={bcgImage} style={styles.imageBcg} />
+
       <View style={styles.titles}>
         <Text style={styles.title}>{carName}</Text>
         <Text style={styles.subtitle}>
