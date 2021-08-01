@@ -23,4 +23,9 @@ export const styles = StyleSheet.create({
     resizeMode: "cover",
     position: "absolute",
   },
+  buttonContainer: {
+    width: "100%",
+    position: "absolute",
+    bottom: 50,
+  },
 });
